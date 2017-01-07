@@ -12,7 +12,8 @@ public class LoginStep {
 
     @Given("^I have navigated to the Login page$")
     public void i_have_navigated_to_the_Login_page() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
+
+        System.out.println("I am on Login page");
     }
 
     @And("^I have clicked on Login button$")
